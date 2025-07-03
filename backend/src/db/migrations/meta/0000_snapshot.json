@@ -1,5 +1,5 @@
 {
-  "id": "302ff531-3e56-4bf2-b10b-6e3bdae150f5",
+  "id": "f5c03ef8-1234-4d40-9b9e-c804e659eb13",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -16,7 +16,7 @@
         },
         "user_id": {
           "name": "user_id",
-          "type": "integer",
+          "type": "text",
           "primaryKey": false,
           "notNull": true
         },
@@ -32,15 +32,21 @@
           "primaryKey": false,
           "notNull": true
         },
+        "image": {
+          "name": "image",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
         "cook_time": {
           "name": "cook_time",
-          "type": "integer",
+          "type": "text",
           "primaryKey": false,
           "notNull": false
         },
         "servings": {
           "name": "servings",
-          "type": "integer",
+          "type": "text",
           "primaryKey": false,
           "notNull": false
         },
